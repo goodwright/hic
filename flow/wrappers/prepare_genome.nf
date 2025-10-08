@@ -1,4 +1,4 @@
-include { PREPARE_GENOME } from './subworkflows/local/prepare_genome.nf'
+include { PREPARE_GENOME } from '../../subworkflows/local/prepare_genome.nf'
 
 workflow {
     // Run wrapper
